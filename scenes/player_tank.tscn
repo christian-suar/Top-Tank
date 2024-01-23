@@ -1,0 +1,54 @@
+[gd_scene load_steps=8 format=3 uid="uid://b5qdnv26ui7jd"]
+
+[ext_resource type="Texture2D" uid="uid://dtq1ckwtp3st0" path="res://assets/Tanks/tankBlack.png" id="1_mfkkh"]
+[ext_resource type="Script" path="res://scenes/player_tank.gd" id="1_nwkxc"]
+[ext_resource type="Texture2D" uid="uid://b2alndclawu65" path="res://assets/Tanks/tankBlack_outline.png" id="2_216ej"]
+[ext_resource type="Texture2D" uid="uid://0uelv5y251hc" path="res://assets/Tanks/barrelBlack.png" id="3_6msj5"]
+[ext_resource type="Texture2D" uid="uid://cu6csa4kw7vyn" path="res://assets/Tanks/barrelBlack_outline.png" id="4_oacp4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5kgmi"]
+size = Vector2(83, 78)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_yqwrl"]
+radius = 11.0
+height = 64.0
+
+[node name="Player Tank" type="CharacterBody2D"]
+script = ExtResource("1_nwkxc")
+
+[node name="TankBlack" type="Sprite2D" parent="."]
+rotation = 1.5708
+texture = ExtResource("1_mfkkh")
+
+[node name="TankBlackOutline" type="Sprite2D" parent="."]
+rotation = 1.5708
+texture = ExtResource("2_216ej")
+
+[node name="BarrelBlack" type="Sprite2D" parent="."]
+position = Vector2(-25, 0)
+rotation = 1.5708
+texture = ExtResource("3_6msj5")
+
+[node name="BarrelBlackOutline" type="Sprite2D" parent="."]
+position = Vector2(-25, 0)
+rotation = 1.5708
+texture = ExtResource("4_oacp4")
+
+[node name="TankBody" type="CollisionShape2D" parent="."]
+position = Vector2(-121, 14)
+shape = SubResource("RectangleShape2D_5kgmi")
+
+[node name="Barrel" type="CollisionShape2D" parent="."]
+position = Vector2(0, 23)
+shape = SubResource("CapsuleShape2D_yqwrl")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2.5, 2.5)
+limit_left = 0
+limit_top = 0
+limit_right = 1600
+limit_bottom = 1600
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
+drag_horizontal_enabled = true
+drag_vertical_enabled = true

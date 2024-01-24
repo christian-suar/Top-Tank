@@ -2,8 +2,9 @@ extends CharacterBody2D
 
 
 const speed = 250
-const rotation_speed = 1.5
-# Get the gravity from the project settings to be synced with RigidBody nodes.
+const rotation_speed = 1.2
+
+
 
 func _physics_process(delta):
 	var move_input = Input.get_axis("ui_down", "ui_up")

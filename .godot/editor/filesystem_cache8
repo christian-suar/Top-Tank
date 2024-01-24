@@ -1,9 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1706027343
+::res://::1706115187
 icon.svg::CompressedTexture2D::6691872011663105180::1705943304::1705943312::1::::<><>::
 README.md::TextFile::-1::1705943362::0::1::::<><>::
-CharacterBody2D.gd::GDScript::-1::1706027795::0::1::::<>CharacterBody2D<>::
-player_tank.tscn::PackedScene::4525322549333740885::1706027837::0::1::::<><>::uid://dtq1ckwtp3st0::::res://assets/Tanks/tankBlack.png<>uid://b2alndclawu65::::res://assets/Tanks/tankBlack_outline.png<>uid://0uelv5y251hc::::res://assets/Tanks/barrelBlack.png<>uid://cu6csa4kw7vyn::::res://assets/Tanks/barrelBlack_outline.png
 ::res://assets/::1705943608
 ::res://assets/Bullets/::1705943609
 bulletBeige.png::CompressedTexture2D::853081878775668449::1705943608::1705943609::1::::<><>::
@@ -37,7 +35,7 @@ sand.png::CompressedTexture2D::1371480009774726050::1705943608::1705943609::1:::
 treeLarge.png::CompressedTexture2D::1468239283703787908::1705943608::1705943609::1::::<><>::
 treeSmall.png::CompressedTexture2D::7604183102089275428::1705943608::1705943609::1::::<><>::
 ::res://assets/Obstacles/::1705943609
-barrelGreen_side.png::CompressedTexture2D::3785231580841955067::1705943608::1705943609::1::::<><>::
+barrelGreen_side.png::CompressedTexture2D::3785231580841955067::1705943608::1706116099::1::::<><>::
 barrelGreen_side_damaged.png::CompressedTexture2D::709142738836480986::1705943608::1705943609::1::::<><>::
 barrelGreen_up.png::CompressedTexture2D::171953006967820334::1705943608::1705943609::1::::<><>::
 barrelGrey_sde_rust.png::CompressedTexture2D::7089754858601079746::1705943608::1705943609::1::::<><>::
@@ -96,5 +94,7 @@ tankRed.png::CompressedTexture2D::2849961921159951849::1705943608::1705943609::1
 tankRed_outline.png::CompressedTexture2D::3632680285022427851::1705943608::1705943609::1::::<><>::
 tracksLarge.png::CompressedTexture2D::736628346720257608::1705943608::1705943609::1::::<><>::
 tracksSmall.png::CompressedTexture2D::7212701180518852799::1705943608::1705943609::1::::<><>::
-::res://scenes/::1705943663
-world.tscn::PackedScene::4521259443476977158::1705943663::0::1::::<><>::
+::res://scenes/::1706115387
+player_tank.gd::GDScript::-1::1706115173::0::1::::<>CharacterBody2D<>::
+player_tank.tscn::PackedScene::4525322549333740885::1706115387::0::1::::<><>::uid://dtq1ckwtp3st0::::res://assets/Tanks/tankBlack.png<>res://scenes/player_tank.gd<>uid://b2alndclawu65::::res://assets/Tanks/tankBlack_outline.png<>uid://0uelv5y251hc::::res://assets/Tanks/barrelBlack.png<>uid://cu6csa4kw7vyn::::res://assets/Tanks/barrelBlack_outline.png
+world.tscn::PackedScene::4521259443476977158::1706115387::0::1::::<><>::uid://dy7a6ow8p8vpd::::res://assets/Environment/dirt.png<>uid://b5sl8xxlkk65e::::res://assets/Environment/grass.png<>uid://tsmcte7a6emc::::res://assets/Environment/sand.png<>uid://df8orx42phfvw::::res://assets/Obstacles/barrelGrey_side.png<>uid://dkxxsu0xhad4n::::res://assets/Obstacles/barrelGrey_up.png<>uid://d1nnvh1wb658r::::res://assets/Obstacles/barrelRed_side.png<>uid://cpj61s1f5d242::::res://assets/Obstacles/barrelRed_up.png<>uid://b5qdnv26ui7jd::::res://scenes/player_tank.tscn<>uid://mg7vmctix383::::res://assets/Obstacles/oil.png<>uid://1wibj1evwsss::::res://assets/Obstacles/sandbagBeige.png<>uid://bx2n3smlseb6j::::res://assets/Obstacles/sandbagBrown.png<>uid://bt6uhgbmfxfip::::res://assets/Obstacles/barrelGreen_side.png<>uid://kdrqh04j65wo::::res://assets/Obstacles/barrelGreen_side_damaged.png<>uid://cpkbnju71eao::::res://assets/Obstacles/barrelGreen_up.png<>uid://c8alhycax770a::::res://assets/Obstacles/barrelGrey_sde_rust.png

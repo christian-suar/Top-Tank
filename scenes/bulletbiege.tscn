@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://c6dsw4cl4skmx"]
+
+[ext_resource type="Texture2D" uid="uid://c4dlg64wmen38" path="res://assets/Bullets/bulletBeigeSilver.png" id="1_5tl8w"]
+[ext_resource type="Script" path="res://scenes/bulletbiege.gd" id="1_cap6r"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mfis4"]
+radius = 6.0
+height = 28.0
+
+[node name="bulletbeige" type="CharacterBody2D"]
+script = ExtResource("1_cap6r")
+
+[node name="BulletBeigeSilver" type="Sprite2D" parent="."]
+texture = ExtResource("1_5tl8w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("CapsuleShape2D_mfis4")

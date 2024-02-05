@@ -16,37 +16,34 @@ size = Vector2(22, 58)
 script = ExtResource("1_nwkxc")
 
 [node name="TankBlack" type="Sprite2D" parent="."]
-position = Vector2(-25, 0)
 rotation = 4.71239
 texture = ExtResource("1_mfkkh")
 
 [node name="TankBlackOutline" type="Sprite2D" parent="."]
-position = Vector2(-25, 0)
 rotation = 4.71239
 texture = ExtResource("2_216ej")
 
 [node name="BarrelBlack" type="Sprite2D" parent="."]
-position = Vector2(5, 0)
+position = Vector2(25, 0)
 rotation = 4.71239
 texture = ExtResource("3_6msj5")
 
 [node name="BarrelBlackOutline" type="Sprite2D" parent="."]
-position = Vector2(5, 0)
+position = Vector2(25, 0)
 rotation = 4.71239
 texture = ExtResource("4_oacp4")
 
 [node name="TankBody" type="CollisionShape2D" parent="."]
-position = Vector2(-25, 0)
 rotation = -1.5708
 shape = SubResource("RectangleShape2D_5kgmi")
 
 [node name="Barrel" type="CollisionShape2D" parent="."]
-position = Vector2(5, 5.34468e-07)
+position = Vector2(25, 0)
 rotation = -1.5708
 shape = SubResource("RectangleShape2D_wuc7o")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(2.5, 2.5)
+zoom = Vector2(2, 2)
 limit_left = 0
 limit_top = 0
 limit_right = 1600
@@ -55,3 +52,7 @@ position_smoothing_enabled = true
 rotation_smoothing_enabled = true
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(55, 2.02651e-06)
+rotation = -1.5708

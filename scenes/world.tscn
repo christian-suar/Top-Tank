@@ -781,7 +781,7 @@ layer_1/y_sort_origin = 0
 layer_1/z_index = 1
 layer_1/tile_data = PackedInt32Array()
 
-[node name="Player Tank" parent="." instance=ExtResource("6_sayaa")]
+[node name="Player Tank" parent="TileMap" instance=ExtResource("6_sayaa")]
 position = Vector2(775, 737)
 
 [node name="Camera2D" type="Camera2D" parent="."]

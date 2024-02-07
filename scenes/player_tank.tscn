@@ -55,4 +55,3 @@ drag_vertical_enabled = true
 
 [node name="Marker2D" type="Marker2D" parent="."]
 position = Vector2(55, 2.02651e-06)
-rotation = -1.5708

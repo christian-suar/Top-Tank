@@ -1,12 +1,13 @@
-extends Area2D
+extends CharacterBody2D
 
-var speed = 100.0
+var speed = 300
 var despawn = 5
-var direction = Vector2()
+
 
 
 func _ready():
-	direction = Vector2(cos(rotation),sin(rotation))
+	pass
 	
 func _process(delta):
-	position += direction * speed * delta
+	position += transform.x * speed * delta
+	move_and_slide()

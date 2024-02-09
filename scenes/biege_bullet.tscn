@@ -7,7 +7,9 @@
 radius = 6.0
 height = 28.0
 
-[node name="biegeBullet" type="Area2D"]
+[node name="biegeBullet" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 2
 script = ExtResource("1_s0ghi")
 
 [node name="BulletBeigeSilver" type="Sprite2D" parent="."]
